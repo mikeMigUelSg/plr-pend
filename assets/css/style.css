@@ -1,0 +1,12 @@
+/* --- LAYOUT GERAL --- */
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: 40px;
+    flex: 1;
+    max-width: 1100px;
+}

@@ -1,0 +1,24 @@
+:root {
+    /* Cores Institucionais E-REDES */
+    --brand-primary: #FFDE00;      /* Amarelo Principal */
+    --brand-black: #1A1A1A;        /* Preto Contraste */
+    
+    /* Cores de Interface */
+    --bg-body: #F5F7FA;            /* Cinza muito claro de fundo */
+    --bg-card: #FFFFFF;            /* Branco puro */
+    --border-color: #E0E0E0;
+    
+    /* Tipografia e Texto */
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --font-family: 'Public Sans', sans-serif;
+    
+    /* Feedback */
+    --color-warning-bg: #FFF8E1;   /* Fundo amarelado suave para alertas */
+    --color-warning-text: #B78103; /* Texto escuro para alertas */
+    
+    /* Layout */
+    --sidebar-width: 280px;
+    --border-radius: 12px;
+    --shadow-soft: 0 4px 20px rgba(0,0,0,0.05);
+}

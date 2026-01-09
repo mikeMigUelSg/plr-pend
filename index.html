@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendências | Balcão Digital</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+    <!-- Navbar Component -->
+    <nav class="sidebar">
+        <div class="logo-area">
+            <img src="assets/images/logo-eredes.png" alt="E-REDES" class="logo-image">
+        </div>
+
+   
+
+        <div class="nav-section">
+            <div class="nav-label">Pendências</div>
+
+            <a href="#ficha-eletrotecnica" class="nav-item" data-pendencia="ficha-eletrotecnica">
+                <i class="fas fa-edit"></i> Ficha Eletrotécnica
+            </a>
+
+            <a href="#termo-responsabilidade" class="nav-item" data-pendencia="termo-responsabilidade">
+                <i class="fas fa-edit"></i> Termo de Responsabilidade
+            </a>
+
+            <a href="#ficha-eletrotecnica-campo-nome" class="nav-item" data-pendencia="ficha-eletrotecnica-campo-nome">
+                <i class="fas fa-edit"></i> FE - Campo "Nome"
+            </a>
+
+            <a href="#ficha-eletrotecnica-campo-nif" class="nav-item" data-pendencia="ficha-eletrotecnica-campo-nif">
+                <i class="fas fa-edit"></i> FE - Campo "NIF/NIPC"
+            </a>
+
+            <a href="#ficha-eletrotecnica-campo-morada" class="nav-item" data-pendencia="ficha-eletrotecnica-campo-morada">
+                <i class="fas fa-edit"></i> FE - Campo "Morada"
+            </a>
+
+            <a href="#ficha-eletrotecnica-campo-cpostal" class="nav-item" data-pendencia="ficha-eletrotecnica-campo-cpostal">
+                <i class="fas fa-edit"></i> FE - Campo "C. Postal"
+            </a>
+
+            <a href="#ficha-eletrotecnica-ponto1-todos" class="nav-item" data-pendencia="ficha-eletrotecnica-ponto1-todos">
+                <i class="fas fa-edit"></i> FE - Ponto 1 Incompleto
+            </a>
+
+            <a href="#ficha-eletrotecnica-p2-nome" class="nav-item" data-pendencia="ficha-eletrotecnica-p2-nome">
+                <i class="fas fa-edit"></i> FE - Técnico "Nome"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p2-nif" class="nav-item" data-pendencia="ficha-eletrotecnica-p2-nif">
+                <i class="fas fa-edit"></i> FE - Técnico "NIF"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p2-email" class="nav-item" data-pendencia="ficha-eletrotecnica-p2-email">
+                <i class="fas fa-edit"></i> FE - Técnico "E-mail"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p2-dgeg" class="nav-item" data-pendencia="ficha-eletrotecnica-p2-dgeg">
+                <i class="fas fa-edit"></i> FE - Técnico "Nº DGEG"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p3-entrada-principal" class="nav-item" data-pendencia="ficha-eletrotecnica-p3-entrada-principal">
+                <i class="fas fa-edit"></i> FE - P3 "Entrada principal"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p3-coordenadas-gps" class="nav-item" data-pendencia="ficha-eletrotecnica-p3-coordenadas-gps">
+                <i class="fas fa-edit"></i> FE - P3 "Coordenadas GPS"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p3-todos" class="nav-item" data-pendencia="ficha-eletrotecnica-p3-todos">
+                <i class="fas fa-edit"></i> FE - Ponto 3 Incompleto
+            </a>
+
+            <a href="#ficha-eletrotecnica-p4-descricao-imovel" class="nav-item" data-pendencia="ficha-eletrotecnica-p4-descricao-imovel">
+                <i class="fas fa-edit"></i> FE - P4 "Descrição do imóvel"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p4-classificacao" class="nav-item" data-pendencia="ficha-eletrotecnica-p4-classificacao">
+                <i class="fas fa-edit"></i> FE - P4 "Classificação"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p4-todos" class="nav-item" data-pendencia="ficha-eletrotecnica-p4-todos">
+                <i class="fas fa-edit"></i> FE - Ponto 4 Incompleto
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-entrada-imovel" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-entrada-imovel">
+                <i class="fas fa-edit"></i> FE - P5 "Entrada do Imóvel"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-nip" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-nip">
+                <i class="fas fa-edit"></i> FE - P5 "NIP"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-cpe" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-cpe">
+                <i class="fas fa-edit"></i> FE - P5 "CPE"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-andar" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-andar">
+                <i class="fas fa-edit"></i> FE - P5 "Andar"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-tipo-utilizacao" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-tipo-utilizacao">
+                <i class="fas fa-edit"></i> FE - P5 "Tipo de utilização"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-fracao" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-fracao">
+                <i class="fas fa-edit"></i> FE - P5 "Fração"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-entrada" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-entrada">
+                <i class="fas fa-edit"></i> FE - P5 "Entrada"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-total-instalado" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-total-instalado">
+                <i class="fas fa-edit"></i> FE - P5 "Total instalado (kVA)"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-fator-simultaneidade" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-fator-simultaneidade">
+                <i class="fas fa-edit"></i> FE - P5 "Fator de Simultaneidade"
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-todos" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-todos">
+                <i class="fas fa-edit"></i> FE - Ponto 5 Incompleto
+            </a>
+
+            <a href="#ficha-eletrotecnica-p5-todos-detalhe" class="nav-item" data-pendencia="ficha-eletrotecnica-p5-todos-detalhe">
+                <i class="fas fa-edit"></i> FE - P5 Incompleto (Detalhe)
+            </a>
+
+            <a href="#localizacao-ponto-entrega" class="nav-item" data-pendencia="localizacao-ponto-entrega">
+                <i class="fas fa-edit"></i> Localização do PE
+            </a>
+
+            <a href="#pe-nao-acessivel" class="nav-item" data-pendencia="pe-nao-acessivel">
+                <i class="fas fa-edit"></i> PE Não Acessível
+            </a>
+
+            <a href="#pe-altura-incorreta" class="nav-item" data-pendencia="pe-altura-incorreta">
+                <i class="fas fa-edit"></i> PE Altura Incorreta
+            </a>
+
+        </div>
+    </nav>
+
+    <main class="main-content">
+
+        <header style="margin-bottom: 40px;">
+            <p class="breadcrumb" style="font-size: 0.9rem; color: #666; margin-bottom: 8px;">Início > Pendências</p>
+            <h1 style="font-size: 1.8rem; font-weight: 700;">Detalhe da Pendência</h1>
+        </header>
+
+        <!-- Action Cards Container - Renderizado dinamicamente -->
+        <div id="action-cards-container"></div>
+
+    </main>
+
+    <!-- JavaScript Modules -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>

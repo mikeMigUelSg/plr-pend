@@ -1,0 +1,952 @@
+{
+  "pendencias": [
+    {
+      "id": "ficha-eletrotecnica",
+      "titulo": "Ficha Eletrotécnica em Falta",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "Para dar seguimento ao seu pedido de ligação à rede, detetámos a falta da Ficha Eletrotécnica. Este documento é obrigatório para validar as condições técnicas da instalação.",
+      "imagem": "assets/images/img_fe.png",
+      "download": {
+        "url": "assets/files/i016706.xlsx",
+        "texto": "Download da Ficha Eletrotécnica"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Obter o Modelo",
+          "descricao": "Aceda ao site oficial da DGEG para descarregar o modelo atualizado.",
+          "link": {
+            "texto": "Ir para dgeg.gov.pt",
+            "url": "https://www.dgeg.gov.pt"
+          }
+        },
+        {
+          "numero": 2,
+          "titulo": "Responsabilidade Técnica",
+          "descricao": "O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito."
+        },
+        {
+          "numero": 3,
+          "titulo": "Envio",
+          "descricao": "Deverá enviar a ficha eletrotécnica digitalizada para darmos seguimento ao pedido de ligação à rede."
+        }
+      ]
+    },
+    {
+      "id": "termo-responsabilidade",
+      "titulo": "Termo de Responsabilidade",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "Para dar seguimento ao pedido é necessário submeter o termo de responsabilidade de execução. O termo de responsabilidade de execução poderá ser obtido em dgeg.gov.pt e deve ser preenchido por um técnico habilitado para o efeito. Deverá enviar o termo de responsabilidade, para darmos seguimento ao pedido de ligação à rede.",
+      "imagem": "assets/images/termo_responsabilidade.png",
+      "download": {
+        "url": "assets/files/i015575.docx",
+        "texto": "Download do Termo de Responsabilidade"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Obter o Modelo",
+          "descricao": "Aceda ao site oficial da DGEG para descarregar o modelo atualizado.",
+          "link": {
+            "texto": "Ir para dgeg.gov.pt",
+            "url": "https://www.dgeg.gov.pt"
+          }
+        },
+        {
+          "numero": 2,
+          "titulo": "Responsabilidade Técnica",
+          "descricao": "O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito."
+        },
+        {
+          "numero": 3,
+          "titulo": "Envio",
+          "descricao": "Deverá enviar o termo de responsabilidade digitalizado para darmos seguimento ao pedido de ligação à rede."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-campo-nome",
+      "titulo": "Ficha Eletrotécnica - Campo \"Nome\" Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Nome\", no ponto \"1 - Requerente/Entidade Exploradora\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/img_fe_name.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"1 - Requerente/Entidade Exploradora\" da Ficha Eletrotécnica e localize o campo <strong>\"Nome\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Nome\" com o nome completo do requerente ou entidade exploradora, conforme consta nos documentos oficiais."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-campo-nif",
+      "titulo": "Ficha Eletrotécnica - Campo \"NIF/NIPC\" Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"NIF/NIPC\", no ponto \"1 - Requerente/Entidade Exploradora\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_nif_nipc.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"1 - Requerente/Entidade Exploradora\" da Ficha Eletrotécnica e localize o campo <strong>\"NIF/NIPC\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"NIF/NIPC\" com o número de identificação fiscal do requerente ou entidade exploradora, composto por 9 dígitos."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-campo-morada",
+      "titulo": "Ficha Eletrotécnica - Campo \"Morada\" Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Morada\", no ponto \"1 - Requerente/Entidade Exploradora\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_morada.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"1 - Requerente/Entidade Exploradora\" da Ficha Eletrotécnica e localize o campo <strong>\"Morada\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Morada\" com a morada completa do requerente ou entidade exploradora, incluindo rua, número, andar e localidade."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-campo-cpostal",
+      "titulo": "Ficha Eletrotécnica - Campo \"C. Postal\" Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"C. Postal\", no ponto \"1 - Requerente/Entidade Exploradora\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_c_postal.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"1 - Requerente/Entidade Exploradora\" da Ficha Eletrotécnica e localize o campo <strong>\"C. Postal\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"C. Postal\" com o código postal no formato correto: XXXX-XXX (exemplo: 1000-001)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-ponto1-todos",
+      "titulo": "Ficha Eletrotécnica - Ponto 1 Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta todos os campos no ponto \"1 - Requerente/Entidade Exploradora\" não devidamente preenchidos. Todos os campos desta secção são obrigatórios para a validação do pedido.",
+      "imagem": "assets/images/fe_p1_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Rever a Secção Completa",
+          "descricao": "Aceda ao ponto \"1 - Requerente/Entidade Exploradora\" e verifique todos os campos: Nome, NIF/NIPC, Morada e Código Postal."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Todos os Campos",
+          "descricao": "Preencha <strong>todos os campos obrigatórios</strong> com informações completas e corretas do requerente ou entidade exploradora."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p2-nome",
+      "titulo": "Ficha Eletrotécnica - Campo \"Nome\" do Técnico",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Nome\", no ponto \"2 - Técnico Responsável\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_p2_name.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"2 - Técnico Responsável\" da Ficha Eletrotécnica e localize o campo <strong>\"Nome\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Nome\" com o nome completo do técnico responsável habilitado pela DGEG."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p2-nif",
+      "titulo": "Ficha Eletrotécnica - Campo \"NIF\" do Técnico",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"NIF\", no ponto \"2 - Técnico Responsável\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_p2_NIF.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"2 - Técnico Responsável\" da Ficha Eletrotécnica e localize o campo <strong>\"NIF\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"NIF\" com o número de identificação fiscal do técnico responsável, composto por 9 dígitos."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p2-email",
+      "titulo": "Ficha Eletrotécnica - Campo \"E-mail\" do Técnico",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"E-mail\", no ponto \"2 - Técnico Responsável\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_p2_mail.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"2 - Técnico Responsável\" da Ficha Eletrotécnica e localize o campo <strong>\"E-mail\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"E-mail\" com um endereço de email válido do técnico responsável para futuros contactos."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p2-dgeg",
+      "titulo": "Ficha Eletrotécnica - Campo \"Nº DGEG\" do Técnico",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Nº DGEG\", no ponto \"2 - Técnico Responsável\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_p2_ndgeg.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"2 - Técnico Responsável\" da Ficha Eletrotécnica e localize o campo <strong>\"Nº DGEG\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Nº DGEG\" com o número de certificação do técnico responsável emitido pela Direção-Geral de Energia e Geologia."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "localizacao-ponto-entrega",
+      "titulo": "Localização do Ponto de Entrega (PE) Não Definida",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "O seu pedido está em pendência porque ainda não foi indicada (e/ou comprovada) a localização do Ponto de Entrega (PE). O PE é a fronteira entre a rede pública da E-REDES e a sua instalação elétrica e é, tipicamente, constituído por uma portinhola, acessível pela via pública.",
+      "imagem": null,
+      "download": {
+        "url": "assets/files/DIT-C14-100 Ed9 1.pdf",
+        "texto": "Download do Guia de Localização do PE"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Escolher o Local do PE",
+          "descricao": "Escolha um local confinante com a via pública, com acesso fácil e permanente para a E-REDES. A portinhola deve ficar no exterior (muro/fachada), acessível a partir da rua.<br><br>Para o ajudar na escolha do local correto, consulte o guia com exemplos de configuração e alturas regulamentares.",
+          "link": {
+            "texto": "Download do Guia de Localização",
+            "url": "assets/files/DIT-C14-100 Ed9 1.pdf"
+          }
+        },
+        {
+          "numero": 2,
+          "titulo": "Responsabilidades",
+          "descricao": "A montagem da portinhola é responsabilidade do cliente. Tudo o que fica a jusante da portinhola (tubos/condutores até à caixa de contagem e até ao quadro da instalação) também é responsabilidade do cliente."
+        },
+        {
+          "numero": 3,
+          "titulo": "Evidências a Enviar",
+          "descricao": "Após definir o local do PE, deve enviar as seguintes evidências:<br><br>✓ <strong>Foto geral</strong> da fachada/muro, incluindo a via pública e o local proposto<br>✓ <strong>Foto aproximada</strong> do local marcado com etiqueta \"P (Portinhola/PE)\" e \"CC (Caixa de Contagem)\"<br>✓ <strong>Foto com fita métrica</strong> mostrando as alturas (base e topo) para validação das cotas<br>✓ <strong>Screenshot de mapa</strong> (Google Maps) com pin no imóvel + morada e coordenadas<br>✓ <strong>Foto do poste/armário</strong> mais próximo e do acesso ao local (se aplicável)<br><br><div style='background-color: #E3F2FD; padding: 16px; border-radius: 8px; margin-top: 16px;'><strong>Como submeter:</strong><br>Submeta as evidências (documentos e fotografias) no site da E-REDES na área <em>\"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos\"</em>.<br><br><img src='assets/images/pe_up.png' alt='Site E-REDES' style='max-width: 100%; margin-top: 16px; border-radius: 8px; border: 1px solid #ddd;'></div>",
+          "link": {
+            "texto": "Aceder ao site da E-REDES",
+            "url": "https://www.e-redes.pt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pe-nao-acessivel",
+      "titulo": "PE Não Acessível da Via Pública",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "O Ponto de Entrega (PE) não se encontra acessível a partir da via pública, de forma a possibilitar intervenções futuras. A portinhola deve estar em local confinante com a via pública, com acesso fácil e permanente para a E-REDES.",
+      "imagem": null,
+      "download": {
+        "url": "assets/files/DIT-C14-100 Ed9 1.pdf",
+        "texto": "Download DIT-C14-100 - Documento Técnico"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Verificar a Localização Atual",
+          "descricao": "A portinhola deve ficar num local confinante com a <strong>via pública</strong>, com acesso <strong>fácil e permanente</strong> ao operador de rede da E-REDES.<br><br>O PE é a fronteira entre a rede pública da E-REDES e a sua instalação elétrica, sendo constituído por uma portinhola acessível pela via pública.<br><br><div style='margin-top: 16px;'><img src='assets/images/pe_acesso_via_publica.png' alt='PE acessível via pública' style='max-width: 100%; border-radius: 8px; border: 1px solid #ddd;'></div>"
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar Documentação Técnica",
+          "descricao": "Consulte o documento técnico <strong>DIT-C14-100</strong> para obter toda a informação necessária sobre as regras de instalação do Ponto de Entrega.",
+          "link": {
+            "texto": "Download DIT-C14-100",
+            "url": "assets/files/DIT-C14-100 Ed9 1.pdf"
+          }
+        },
+        {
+          "numero": 3,
+          "titulo": "Relocação do PE",
+          "descricao": "Caso o PE não esteja acessível pela via pública, será necessário <strong>relocar a portinhola</strong> para um local adequado que cumpra os requisitos regulamentares:<br><br>• Local no <strong>muro ou fachada exterior</strong><br>• Acessível <strong>diretamente da via pública</strong><br>• Sem obstáculos que impeçam o acesso<br>• Acesso permanente para intervenções da E-REDES<br><br>A montagem da portinhola é <strong>responsabilidade do cliente</strong>."
+        },
+        {
+          "numero": 4,
+          "titulo": "Submeter Evidências",
+          "descricao": "Após alteração do ponto de entrega, envie as seguintes evidências:<br><br>✓ <strong>Fotos do novo local</strong> mostrando o acesso pela via pública<br>✓ <strong>Foto da portinhola instalada</strong> no novo local<br>✓ <strong>Foto mostrando as medidas</strong> (alturas regulamentares)<br>✓ <strong>Vista geral</strong> da propriedade com o PE visível<br><br><div style='background-color: #E3F2FD; padding: 16px; border-radius: 8px; margin-top: 16px;'><strong>Como submeter:</strong><br>Submeta as evidências (documentos e fotografias) no site da E-REDES na área <em>\"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos\"</em>.<br><br><img src='assets/images/pe_up.png' alt='Site E-REDES' style='max-width: 100%; margin-top: 16px; border-radius: 8px; border: 1px solid #ddd;'></div>",
+          "link": {
+            "texto": "Aceder ao site da E-REDES",
+            "url": "https://www.e-redes.pt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pe-altura-incorreta",
+      "titulo": "PE Não Está à Altura Regulamentar",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "O Ponto de Entrega (PE) não se encontra à altura regulamentar definida. As portinholas e caixas de contagem devem respeitar distâncias específicas ao solo para garantir a segurança e facilitar as intervenções técnicas.",
+      "imagem": null,
+      "download": {
+        "url": "assets/files/DIT-C14-100 Ed9 1.pdf",
+        "texto": "Download DIT-C14-100 - Documento Técnico"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Verificar Alturas Regulamentares",
+          "descricao": "As distâncias ao solo preconizadas para a instalação são:<br><br><strong>PORTINHOLA:</strong><br>• Distância do solo à <strong>parte inferior</strong>: entre <strong>0,50 m (b1) e 0,80 m (b2)</strong><br>• Distância do solo à <strong>parte superior</strong>: <strong>1,55 m (máximo)</strong><br><br><div style='margin-top: 16px;'><img src='assets/images/pe_medidas_regulamentares.png' alt='Alturas regulamentares' style='max-width: 100%; border-radius: 8px; border: 1px solid #ddd;'></div><br><br><em>Nota: Em situações excecionais devidamente justificadas por documento legal/regulamentar, poderá aceitar-se uma distância mínima ao solo diferente, mas nunca inferior a 0,25 m para a portinhola e 0,50 m para a caixa de contagem.</em>"
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar Documentação Técnica",
+          "descricao": "Consulte o documento técnico <strong>DIT-C14-100</strong> (secções 6.1 e 6.3) para obter toda a informação necessária sobre as regras de instalação.",
+          "link": {
+            "texto": "Download DIT-C14-100",
+            "url": "assets/files/DIT-C14-100 Ed9 1.pdf"
+          }
+        },
+        {
+          "numero": 3,
+          "titulo": "Adequação do PE",
+          "descricao": "Será necessário ajustar a altura da portinhola e/ou caixa de contagem para cumprir os requisitos regulamentares.<br><br><strong>Responsabilidades:</strong><br>• A <strong>montagem da portinhola</strong> é responsabilidade do cliente<br>• Os trabalhos devem ser executados por <strong>técnico habilitado</strong><br><br>Certifique-se de que ambos os equipamentos ficam nas alturas corretas conforme indicado no passo 1."
+        },
+        {
+          "numero": 4,
+          "titulo": "Submeter Evidências",
+          "descricao": "Após adequação do ponto de entrega, envie as seguintes evidências:<br><br>✓ <strong>Fotos com fita métrica</strong> mostrando as alturas da base e topo da portinhola<br>✓ <strong>Fotos com fita métrica</strong> mostrando as alturas da base e topo da caixa de contagem<br>✓ <strong>Vista geral</strong> mostrando ambos os equipamentos instalados<br>✓ <strong>Foto de detalhe</strong> das medições com valores visíveis<br><br><div style='background-color: #E3F2FD; padding: 16px; border-radius: 8px; margin-top: 16px;'><strong>Como submeter:</strong><br>Submeta as evidências (documentos e fotografias) no site da E-REDES na área <em>\"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos\"</em>.<br><br><img src='assets/images/pe_up.png' alt='Site E-REDES' style='max-width: 100%; margin-top: 16px; border-radius: 8px; border: 1px solid #ddd;'></div>",
+          "link": {
+            "texto": "Aceder ao site da E-REDES",
+            "url": "https://www.e-redes.pt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "intervencoes-tecnicas",
+      "titulo": "Intervenção Técnica Pendente",
+      "subtitulo": "Aguarda agendamento",
+      "tipo": "info",
+      "icon": "fas fa-tools",
+      "descricao": "Foi identificada a necessidade de uma intervenção técnica no seu local de instalação. Esta intervenção é necessária para garantir a conformidade técnica e segurança da ligação à rede elétrica.",
+      "imagem": null,
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Validação Técnica",
+          "descricao": "A nossa equipa técnica irá realizar uma avaliação no local para verificar as condições necessárias para a intervenção."
+        },
+        {
+          "numero": 2,
+          "titulo": "Agendamento",
+          "descricao": "Será contactado para agendar a intervenção técnica num horário conveniente. É importante garantir o acesso ao local."
+        },
+        {
+          "numero": 3,
+          "titulo": "Execução",
+          "descricao": "Os nossos técnicos realizarão os trabalhos necessários. A duração depende da complexidade da intervenção."
+        },
+        {
+          "numero": 4,
+          "titulo": "Conclusão",
+          "descricao": "Após a conclusão dos trabalhos, receberá um relatório técnico com todos os detalhes da intervenção realizada."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p3-entrada-principal",
+      "titulo": "Ficha Eletrotécnica - Campo \"Entrada principal (Lugar/Rua)\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Entrada principal (Lugar/Rua)\", no ponto \"3 - Localização do imóvel\", não devidamente preenchido. Este campo deverá coincidir com o campo que consta na Licença de Construção, Caderneta Predial ou documento equivalente.",
+      "imagem": "assets/images/fe_p3_entrada_principal.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"3 - Localização do imóvel\" da Ficha Eletrotécnica e localize o campo <strong>\"Entrada principal (Lugar/Rua)\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar Documentação Oficial",
+          "descricao": "Consulte a <strong>Licença de Construção</strong>, <strong>Caderneta Predial</strong> ou documento equivalente para confirmar a morada correta do imóvel."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Entrada principal (Lugar/Rua)\" de forma a <strong>coincidir exatamente</strong> com a informação que consta nos documentos oficiais."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p3-coordenadas-gps",
+      "titulo": "Ficha Eletrotécnica - Campo \"Coordenadas GPS\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Coordenadas GPS\", no ponto \"3 - Localização do imóvel\", não devidamente preenchido, por forma a identificar inequivocamente o ponto de entrega.",
+      "imagem": "assets/images/fe_p3_coordenadas_gps.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"3 - Localização do imóvel\" da Ficha Eletrotécnica e localize o campo <strong>\"Coordenadas GPS\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Obter as Coordenadas",
+          "descricao": "Utilize uma ferramenta como o <strong>Google Maps</strong> para obter as coordenadas GPS exatas do ponto de entrega do imóvel. Clique com o botão direito no local exato e selecione as coordenadas para copiar.",
+          "link": {
+            "texto": "Abrir Google Maps",
+            "url": "https://www.google.pt/maps"
+          }
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher no Formato Correto",
+          "descricao": "Preencha o campo \"Coordenadas GPS\" no formato correto (exemplo: 38.7223, -9.1393) de forma a identificar inequivocamente o ponto de entrega."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se as coordenadas estão corretas e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p3-todos",
+      "titulo": "Ficha Eletrotécnica - Ponto 3 Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta todos os campos no ponto \"3 - Localização do imóvel\" não devidamente preenchidos. Todos os campos desta secção são obrigatórios para a validação do pedido.",
+      "imagem": "assets/images/fe_p3_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Rever a Secção Completa",
+          "descricao": "Aceda ao ponto \"3 - Localização do imóvel\" e verifique todos os campos: Entrada principal (Lugar/Rua), Coordenadas GPS e demais informações de localização."
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar Documentação",
+          "descricao": "Consulte a <strong>Licença de Construção</strong>, <strong>Caderneta Predial</strong> ou documento equivalente para garantir que os dados inseridos coincidem com a documentação oficial."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Todos os Campos",
+          "descricao": "Preencha <strong>todos os campos obrigatórios</strong> com informações completas e corretas sobre a localização do imóvel, incluindo coordenadas GPS precisas."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p4-descricao-imovel",
+      "titulo": "Ficha Eletrotécnica - Campo \"Descrição do imóvel\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Descrição do imóvel\", no ponto \"4 - Caracterização do imóvel\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p4_descricao_imovel.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"4 - Caracterização do imóvel\" da Ficha Eletrotécnica e localize o campo <strong>\"Descrição do imóvel\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Descrição do imóvel\" com uma descrição clara do tipo de imóvel (moradia, apartamento, estabelecimento comercial, etc.) e suas características principais."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p4-classificacao",
+      "titulo": "Ficha Eletrotécnica - Campo \"Classificação das instalações\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Classificação das instalações\", no ponto \"4 - Caracterização do imóvel\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p4_classificacao.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"4 - Caracterização do imóvel\" da Ficha Eletrotécnica e localize o campo <strong>\"Classificação das instalações\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Classificação das instalações\" selecionando a opção adequada conforme a tipologia da instalação elétrica (habitacional, comercial, industrial, serviços, etc.)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p4-todos",
+      "titulo": "Ficha Eletrotécnica - Ponto 4 Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta todos os campos no ponto \"4 - Caracterização do imóvel\" não devidamente preenchidos. Todos os campos desta secção são obrigatórios para a validação do pedido.",
+      "imagem": "assets/images/fe_p4_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Rever a Secção Completa",
+          "descricao": "Aceda ao ponto \"4 - Caracterização do imóvel\" e verifique todos os campos: Descrição do imóvel, Classificação das instalações e demais informações de caracterização."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Todos os Campos",
+          "descricao": "Preencha <strong>todos os campos obrigatórios</strong> com informações completas e corretas sobre as características do imóvel e da instalação elétrica."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-entrada-imovel",
+      "titulo": "Ficha Eletrotécnica - Campo \"Entrada do Imóvel\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Entrada do Imóvel\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_entrada_imovel.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Entrada do Imóvel\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Entrada do Imóvel\" com a identificação da entrada correspondente à instalação elétrica."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-nip",
+      "titulo": "Ficha Eletrotécnica - Campo \"NIP\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"NIP\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_nip.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"NIP\"</strong> (Número de Identificação do Prédio)."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"NIP\" com o número de identificação do prédio. Este número pode ser consultado na Caderneta Predial ou na documentação oficial do imóvel."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-cpe",
+      "titulo": "Ficha Eletrotécnica - Campo \"CPE\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"CPE\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_cpe.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"CPE\"</strong> (Código do Ponto de Entrega)."
+        },
+        {
+          "numero": 2,
+          "titulo": "Obter o CPE",
+          "descricao": "O CPE é um código alfanumérico atribuído pela E-REDES. Caso não tenha este código, contacte a E-REDES para obtê-lo ou aguarde pela atribuição no decorrer do processo."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"CPE\" com o código fornecido pela E-REDES. Se ainda não tiver sido atribuído, deixe o campo em branco e indique essa situação."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-andar",
+      "titulo": "Ficha Eletrotécnica - Campo \"Andar\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Andar\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_andar.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Andar\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Andar\" com a identificação do andar onde se localiza a instalação elétrica (exemplo: R/C, 1º, 2º, Cave, etc.)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-tipo-utilizacao",
+      "titulo": "Ficha Eletrotécnica - Campo \"Tipo de utilização individual\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Tipo de utilização individual\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_tipo_utilizacao.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Tipo de utilização individual\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Tipo de utilização individual\" selecionando a opção adequada: Habitação, Comércio, Serviços, Indústria, ou outra categoria aplicável."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-fracao",
+      "titulo": "Ficha Eletrotécnica - Campo \"Fração\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Fração\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_fracao.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Fração\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Fração\" com a identificação da fração conforme consta na documentação oficial do imóvel (exemplo: A, B, C, Esq, Dto, etc.)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-entrada",
+      "titulo": "Ficha Eletrotécnica - Campo \"Entrada\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Entrada\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_entrada.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Entrada\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Entrada\" com a identificação da entrada do prédio ou edifício onde se localiza a instalação."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-total-instalado",
+      "titulo": "Ficha Eletrotécnica - Campo \"Total instalado (kVA)\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Total instalado (kVA)\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_total_instalado.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Total instalado (kVA)\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Calcular a Potência Total",
+          "descricao": "Calcule a soma total da potência instalada de todos os equipamentos e circuitos da instalação elétrica, expressa em kVA (quilovolt-ampere)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Total instalado (kVA)\" com o valor calculado. Este cálculo deve ser realizado por um <strong>técnico habilitado</strong>."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-fator-simultaneidade",
+      "titulo": "Ficha Eletrotécnica - Campo \"Fator de Simultaneidade\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Fator de Simultaneidade\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido.",
+      "imagem": "assets/images/fe_p5_fator_simultaneidade.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Fator de Simultaneidade\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Determinar o Fator",
+          "descricao": "O Fator de Simultaneidade representa a probabilidade de utilização simultânea dos equipamentos. Este valor deve ser determinado por um <strong>técnico habilitado</strong> de acordo com as normas técnicas aplicáveis."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Fator de Simultaneidade\" com o valor adequado (geralmente um valor entre 0 e 1, ou em percentagem)."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-todos",
+      "titulo": "Ficha Eletrotécnica - Ponto 5 Incompleto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta todos os campos no ponto \"5 - Instalação Elétrica\" não devidamente preenchidos. Todos os campos desta secção são obrigatórios para a validação do pedido.",
+      "imagem": "assets/images/fe_p5_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Rever a Secção Completa",
+          "descricao": "Aceda ao ponto \"5 - Instalação Elétrica\" e verifique todos os campos: Entrada do Imóvel, NIP, CPE, Andar, Tipo de utilização individual, Fração, Entrada, Total instalado (kVA), Fator de Simultaneidade e demais informações da instalação."
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar Técnico Habilitado",
+          "descricao": "Alguns campos técnicos (como Total instalado e Fator de Simultaneidade) requerem cálculos específicos que devem ser realizados por um <strong>técnico habilitado</strong>."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Todos os Campos",
+          "descricao": "Preencha <strong>todos os campos obrigatórios</strong> com informações completas e corretas sobre a instalação elétrica."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-todos-detalhe",
+      "titulo": "Ficha Eletrotécnica - Ponto 5 Incompleto (Constituição do Prédio)",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta os campos no ponto \"5 - Instalação Elétrica\" não devidamente preenchidos, de forma a contemplar toda a constituição do prédio e não apenas das frações em que se pretende intervir.",
+      "imagem": "assets/images/fe_p5_todos_detalhe.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Compreender o Requisito",
+          "descricao": "O ponto \"5 - Instalação Elétrica\" deve incluir informação sobre <strong>toda a constituição do prédio</strong>, não apenas sobre a(s) fração(ões) onde se pretende realizar a intervenção."
+        },
+        {
+          "numero": 2,
+          "titulo": "Identificar Todas as Frações",
+          "descricao": "Identifique e liste todas as frações do prédio, incluindo:<br>• Todas as habitações<br>• Lojas/estabelecimentos comerciais<br>• Áreas comuns<br>• Garagens<br>• Outras frações existentes"
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher Informação Completa",
+          "descricao": "Preencha os campos do ponto \"5 - Instalação Elétrica\" com a informação detalhada de <strong>todas as frações do prédio</strong>, mesmo que a intervenção seja apenas numa delas. Esta informação global é essencial para o dimensionamento correto da instalação."
+        },
+        {
+          "numero": 4,
+          "titulo": "Consultar Técnico Habilitado",
+          "descricao": "Um <strong>técnico habilitado</strong> deve validar e confirmar que toda a informação sobre a constituição do prédio está completa e correta."
+        },
+        {
+          "numero": 5,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos estão devidamente preenchidos contemplando toda a constituição do prédio e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    }
+  ]
+}
