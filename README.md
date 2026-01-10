@@ -1,30 +1,30 @@
 # Dashboard de Pendências E-REDES
 
-Sistema modular para visualização e gestão de pendências técnicas do Balcão Digital E-REDES.
+Sistema modular para gestão e visualização de pendências do Balcão Digital E-REDES.
 
 ## Estrutura do Projeto
 
 ```
 dashPendencias/
-├── assets/
-│   ├── css/
-│   │   ├── variables.css    # Variáveis CSS (cores, dimensões)
-│   │   ├── reset.css         # Reset de estilos
-│   │   ├── style.css         # Estilos globais
-│   │   └── components.css    # Estilos dos componentes
-│   ├── js/
-│   │   └── app.js            # Aplicação principal
-│   └── images/
-│       ├── logo-eredes.png
-│       └── ficha-eletrotecnica-exemplo.svg
-├── components/
-│   ├── navbar.html           # Componente de navegação
-│   └── action-card.html      # Template do action card
-├── data/
-│   └── pendencias.json       # Dados das pendências
-├── pages/
-│   └── (páginas futuras)
-└── index.html                # Página principal
+├── src/
+│   ├── components/          # Componentes UI reutilizáveis
+│   │   ├── ActionCard.js    # Card de exibição de pendências
+│   │   ├── Breadcrumb.js    # Navegação breadcrumb
+│   │   ├── ContentBlock.js  # Renderizador de blocos flexíveis
+│   │   └── Navbar.js        # Navegação lateral
+│   ├── services/            # Serviços e lógica de negócio
+│   │   └── Router.js        # Gestão de rotas e navegação
+│   ├── data/                # Dados da aplicação
+│   │   └── pendenciasData.js # Configuração de pendências
+│   ├── App.js               # Orquestrador principal
+│   └── main.js              # Ponto de entrada
+├── assets/                  # Recursos estáticos
+│   ├── css/                 # Folhas de estilo
+│   ├── images/              # Imagens
+│   └── files/               # Ficheiros para download
+├── data/                    # Dados legados (não utilizado)
+│   └── pendencias.json      # JSON original (deprecated)
+└── index.html               # Página principal
 ```
 
 ## Como Funciona
