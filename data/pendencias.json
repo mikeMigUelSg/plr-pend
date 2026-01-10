@@ -35,6 +35,119 @@
       ]
     },
     {
+      "id": "ficha-eletrotecnica-excel",
+      "titulo": "Ficha Eletrotécnica em Excel",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida, em formato Excel, não está devidamente preenchida. Deverá enviar a ficha eletrotécnica em formato Excel devidamente preenchida para darmos seguimento ao pedido.",
+      "imagem": "assets/images/img_fe.png",
+      "download": {
+        "url": "assets/files/i016706.xlsx",
+        "texto": "Download da Ficha Eletrotécnica (Excel)"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Obter o Modelo em Excel",
+          "descricao": "Aceda ao site oficial da DGEG para descarregar o modelo atualizado em formato Excel (.xlsx).",
+          "link": {
+            "texto": "Ir para dgeg.gov.pt",
+            "url": "https://www.dgeg.gov.pt"
+          }
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher o Ficheiro Excel",
+          "descricao": "Preencha <strong>todos os campos obrigatórios</strong> do ficheiro Excel de forma completa e correta. O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar o Preenchimento",
+          "descricao": "Antes de submeter, verifique cuidadosamente que:<br>• Todos os campos obrigatórios estão preenchidos<br>• A informação está correta e completa<br>• O ficheiro está no formato Excel (.xlsx)<br>• O documento está devidamente assinado"
+        },
+        {
+          "numero": 4,
+          "titulo": "Envio do Ficheiro Excel",
+          "descricao": "Deverá enviar a ficha eletrotécnica em formato Excel devidamente preenchida para darmos seguimento ao pedido de ligação à rede."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-modelo-dgeg",
+      "titulo": "Ficha Eletrotécnica - Modelo DGEG",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida não está no modelo definido pela Direção Geral de Energia e Geologia (DGEG), ou não está devidamente preenchida. Deverá enviar a ficha eletrotécnica no modelo oficial da DGEG devidamente preenchida para darmos seguimento ao pedido.",
+      "imagem": "assets/images/img_fe.png",
+      "download": {
+        "url": "assets/files/i016706.xlsx",
+        "texto": "Download da Ficha Eletrotécnica (Modelo DGEG)"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Obter o Modelo Oficial da DGEG",
+          "descricao": "Aceda ao site oficial da DGEG para descarregar o modelo atualizado e oficial da Ficha Eletrotécnica.",
+          "link": {
+            "texto": "Ir para dgeg.gov.pt",
+            "url": "https://www.dgeg.gov.pt"
+          }
+        },
+        {
+          "numero": 2,
+          "titulo": "Responsabilidade Técnica",
+          "descricao": "O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito, conforme as normas da DGEG."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher o Modelo Correto",
+          "descricao": "Utilize apenas o modelo oficial fornecido pela DGEG. Não utilize modelos alternativos, versões antigas ou documentos modificados. Preencha <strong>todos os campos obrigatórios</strong> de forma completa e correta."
+        },
+        {
+          "numero": 4,
+          "titulo": "Envio",
+          "descricao": "Deverá enviar a ficha eletrotécnica no modelo oficial da DGEG, devidamente preenchida e assinada, para darmos seguimento ao pedido de ligação à rede."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-ilegivel",
+      "titulo": "Ficha Eletrotécnica Ilegível",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida não está devidamente legível. É necessário que o documento seja claramente legível para validação. Deverá enviar a ficha eletrotécnica com qualidade suficiente para leitura e darmos seguimento ao pedido.",
+      "imagem": "assets/images/img_fe.png",
+      "download": {
+        "url": "assets/files/i016706.xlsx",
+        "texto": "Download da Ficha Eletrotécnica"
+      },
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Verificar a Qualidade do Documento",
+          "descricao": "Antes de submeter, abra o ficheiro e verifique se:<br>• O texto está legível e nítido<br>• Não há sombras, manchas ou áreas desfocadas<br>• Todas as páginas estão completas<br>• A assinatura e os dados estão visíveis"
+        },
+        {
+          "numero": 2,
+          "titulo": "Digitalização Adequada",
+          "descricao": "Se estiver a digitalizar o documento:<br>• Utilize um scanner ou aplicação de digitalização de qualidade<br>• Configure para uma resolução mínima de 300 DPI<br>• Certifique-se de que o documento está bem iluminado e sem sombras<br>• Evite fotografias de má qualidade ou com reflexos"
+        },
+        {
+          "numero": 3,
+          "titulo": "Formato Recomendado",
+          "descricao": "Prefira enviar o documento em formato PDF original, caso tenha sido gerado digitalmente. Se for uma digitalização, garanta que o ficheiro PDF está em alta qualidade e todos os campos são claramente legíveis."
+        },
+        {
+          "numero": 4,
+          "titulo": "Envio do Documento Legível",
+          "descricao": "Deverá enviar a ficha eletrotécnica com qualidade de imagem/digitalização adequada, garantindo que todos os campos, texto e assinatura estão claramente legíveis para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
       "id": "termo-responsabilidade",
       "titulo": "Termo de Responsabilidade",
       "subtitulo": "Ação necessária do cliente",
@@ -184,7 +297,7 @@
         {
           "numero": 1,
           "titulo": "Rever a Secção Completa",
-          "descricao": "Aceda ao ponto \"1 - Requerente/Entidade Exploradora\" e verifique todos os campos: Nome, NIF/NIPC, Morada e Código Postal."
+          "descricao": "Aceda ao ponto \"1 - Requerente/Entidade Exploradora\" e verifique todos os campos."
         },
         {
           "numero": 2,
@@ -618,7 +731,7 @@
         {
           "numero": 1,
           "titulo": "Rever a Secção Completa",
-          "descricao": "Aceda ao ponto \"4 - Caracterização do imóvel\" e verifique todos os campos: Descrição do imóvel, Classificação das instalações e demais informações de caracterização."
+          "descricao": "Aceda ao ponto \"4 - Caracterização do imóvel\" e verifique todos os campos."
         },
         {
           "numero": 2,
@@ -893,7 +1006,7 @@
         {
           "numero": 1,
           "titulo": "Rever a Secção Completa",
-          "descricao": "Aceda ao ponto \"5 - Instalação Elétrica\" e verifique todos os campos: Entrada do Imóvel, NIP, CPE, Andar, Tipo de utilização individual, Fração, Entrada, Total instalado (kVA), Fator de Simultaneidade e demais informações da instalação."
+          "descricao": "Aceda ao ponto \"5 - Instalação Elétrica\" e verifique todos os campos."
         },
         {
           "numero": 2,
@@ -945,6 +1058,313 @@
           "numero": 5,
           "titulo": "Verificar e Reenviar",
           "descricao": "Verifique se todos os campos estão devidamente preenchidos contemplando toda a constituição do prédio e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-data-assinatura",
+      "titulo": "Validade da Assinatura",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A data da assinatura da Ficha Eletrotécnica deve ser inferior a 1 mês a contar da data de abertura do pedido de ligação à rede. A ficha submetida apresenta uma data de assinatura que não cumpre este requisito temporal obrigatório.",
+      "imagem": "assets/images/fe_data_assinatura.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Verificar a Data de Assinatura",
+          "descricao": "Consulte a Ficha Eletrotécnica e identifique a <strong>data de assinatura</strong> constante no documento."
+        },
+        {
+          "numero": 2,
+          "titulo": "Consultar a Data de Abertura do PLR",
+          "descricao": "Para confirmar a <strong>data de abertura do pedido de ligação à rede</strong>, aceda ao <strong>Balcão Digital da E-REDES</strong> onde pode consultar o histórico e estado do seu pedido:<br>• Aceda a <a href='https://balcaodigital.e-redes.pt/' target='_blank' style='color: #0066CC; text-decoration: underline;'>balcaodigital.e-redes.pt</a><br>• Faça login com as suas credenciais <br>• Consulte o histórico dos seus pedidos para verificar a data de abertura<br><br>Alternativamente, pode verificar o <strong>email de notificação</strong> que recebeu da E-REDES após a submissão do pedido, onde consta a data de abertura.<br>"
+        },
+        {
+          "numero": 3,
+          "titulo": "Validar o Prazo",
+          "descricao": "Confirme que a <strong>data de assinatura da Ficha Eletrotécnica</strong> é inferior a 1 mês (30 dias) a contar da <strong>data de abertura do PLR</strong>. Se o prazo não for cumprido, será necessário obter uma nova assinatura."
+        },
+        {
+          "numero": 4,
+          "titulo": "Obter Nova Assinatura",
+          "descricao": "Caso a assinatura esteja fora do prazo, solicite ao <strong>técnico responsável habilitado</strong> que assine novamente a Ficha Eletrotécnica com uma data atual, que respeite o prazo de validade de 1 mês."
+        },
+        {
+          "numero": 5,
+          "titulo": "Submeter o Documento Corrigido",
+          "descricao": "Após obter a nova assinatura dentro do prazo regulamentar, submeta a Ficha Eletrotécnica corrigida através do Balcão Digital na área <em>\"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos\"</em> para darmos seguimento ao pedido.",
+          "link": {
+            "texto": "Submeter documentos no Balcão Digital",
+            "url": "https://balcaodigital.e-redes.pt/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p4-instalacao",
+      "titulo": "Ficha Eletrotécnica - Campo \"Instalação\" (Quadro 4)",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Instalação\", no Quadro 4 – Caracterização do imóvel, não devidamente preenchido. Este campo é obrigatório e só pode assumir os valores \"Nova\" ou \"Existente\", devendo ser coerente com a realidade elétrica do local e com o preenchimento do Quadro 5 – Instalação Elétrica.",
+      "imagem": "assets/images/fe_p4_instalacao.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Determinar o Valor do Campo \"Instalação\"",
+          "descricao": "Antes de preencher, confirme a situação elétrica do local:<br><br><strong>Instalação = \"Nova\"</strong><br>Utilize quando a instalação ainda não está em exploração e não existe ligação elétrica concluída (sem NIP/OL ativo).<br><br><strong>Instalação = \"Existente\"</strong><br>Utilize quando já existe ou existiu uma ligação elétrica concluída para o local (instalação em exploração), mesmo que o edifício tenha sido demolido e reconstruído, desde que o Objeto de Ligação (NIP/OL) se mantenha."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher o Quadro 4 – Caracterização do Imóvel",
+          "descricao": "Selecione a tipologia do imóvel (Unifamiliar, Coletivo, Condomínio fechado ou Outros).<br><br>No campo \"Instalação\", escolha exatamente um dos valores válidos:<br>• <strong>Nova</strong><br>• <strong>Existente</strong><br><br>⚠️ Não utilize outros termos nem deixe o campo em branco."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar a Coerência com o Quadro 5",
+          "descricao": "O campo \"Instalação\" (Quadro 4) está diretamente relacionado com o Quadro 5:<br><br><strong>Se \"Instalação = Nova\"</strong><br>• No Quadro 5, campos associados a instalações existentes (ex.: NIP/OL ou CPE) devem ficar em branco, se ainda não atribuídos<br>• Preencher corretamente: Total de ramais, Tipo de utilização e Potências previstas<br><br><strong>Se \"Instalação = Existente\"</strong><br>• No Quadro 5, os dados de identificação elétrica existentes (ex.: NIP/OL, quando aplicável) devem estar preenchidos e coerentes<br>• O número de instalações, ramais e tipo de utilização tem de corresponder à tipologia indicada no Quadro 4"
+        },
+        {
+          "numero": 4,
+          "titulo": "Revisão Final",
+          "descricao": "Antes de submeter:<br>• Confirmar que o campo \"Instalação\" está preenchido com \"Nova\" ou \"Existente\"<br>• Garantir coerência entre Tipologia do imóvel (Quadro 4) e Número de instalações e ramais (Quadro 5)"
+        },
+        {
+          "numero": 5,
+          "titulo": "Envio da Ficha Corrigida",
+          "descricao": "Após a correção, submeter a Ficha Eletrotécnica atualizada através do Balcão Digital da E-REDES, no mesmo pedido, para levantamento da pendência.",
+          "link": {
+            "texto": "Aceder ao Balcão Digital",
+            "url": "https://balcaodigital.e-redes.pt/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-p5-tipo-instalacao",
+      "titulo": "Ficha Eletrotécnica - Campo \"Tipo da Instalação\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Tipo da Instalação\", no ponto \"5 - Instalação Elétrica\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_p5_tipo_instalacao.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à secção \"5 - Instalação Elétrica\" da Ficha Eletrotécnica e localize o campo <strong>\"Tipo da Instalação\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Preencher Corretamente",
+          "descricao": "Preencha o campo \"Tipo da Instalação\" selecionando a opção adequada conforme as características da instalação elétrica."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-tipo-c-potencia",
+      "titulo": "Ficha Eletrotécnica - Campo \"Potência Total Instalada (kVA)\"",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Potência Total Instalada (kVA)\" após \"Tipo C: Instalações alimentadas em BT\", não devidamente preenchido. Este campo é obrigatório para a validação do pedido.",
+      "imagem": "assets/images/fe_tipo_c.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à Ficha Eletrotécnica e localize a secção <strong>\"Tipo C: Instalações alimentadas em BT\"</strong>. Identifique o campo <strong>\"Potência Total Instalada (kVA)\"</strong>."
+        },
+        {
+          "numero": 2,
+          "titulo": "Calcular a Potência Total",
+          "descricao": "Calcule a soma total da potência instalada de todos os equipamentos e circuitos da instalação elétrica em Baixa Tensão (BT), expressa em kVA (quilovolt-ampere). Este cálculo deve ser realizado por um <strong>técnico habilitado</strong>."
+        },
+        {
+          "numero": 3,
+          "titulo": "Preencher o Campo",
+          "descricao": "Preencha o campo \"Potência Total Instalada (kVA)\" com o valor calculado, garantindo que a informação está correta e completa."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se todos os campos obrigatórios estão devidamente preenchidos e envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-data-assinatura-falta",
+      "titulo": "Ficha Eletrotécnica - Data e Assinatura do Técnico",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica submetida apresenta o campo \"Data e assinatura do técnico responsável\" não devidamente preenchido. A data de assinatura da Ficha Eletrotécnica não pode ser superior a 1 mês à data de envio deste documento.",
+      "imagem": "assets/images/fe_data_assinatura_falta.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo",
+          "descricao": "Aceda à Ficha Eletrotécnica e localize o campo <strong>\"Data e assinatura do técnico responsável\"</strong>, normalmente localizado no final do documento."
+        },
+        {
+          "numero": 2,
+          "titulo": "Verificar a Data",
+          "descricao": "Confirme que a <strong>data de assinatura</strong> não é superior a 1 mês (30 dias) em relação à data de envio do documento. Se o prazo estiver ultrapassado, será necessário obter uma nova assinatura."
+        },
+        {
+          "numero": 3,
+          "titulo": "Obter Assinatura do Técnico Habilitado",
+          "descricao": "A Ficha Eletrotécnica deve ser assinada por um <strong>técnico responsável habilitado</strong> pela DGEG, com a data atual que respeite o prazo de validade de 1 mês."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar e Reenviar",
+          "descricao": "Verifique se o campo de data e assinatura está devidamente preenchido e que a data está dentro do prazo válido. Envie a ficha eletrotécnica corrigida para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-ramais-instalacoes",
+      "titulo": "FE - Sem Todos os Ramais e Instalações",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica não reflete a constituição total do prédio (todas as instalações e respetivos ramais). Para prédios coletivos/alterações, a ficha tem de indicar o prédio completo e não apenas uma ou algumas frações.",
+      "imagem": "assets/images/fe_p5_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Confirmar Associação a Matriz",
+          "descricao": "Confirme se o <strong>Objeto de Ligação (NIP)</strong> está associado a uma matriz.<br><br>Quando o NIP estiver associado a matriz, a ficha tem de conter a constituição do total do prédio e não apenas a parte onde se pretende intervir."
+        },
+        {
+          "numero": 2,
+          "titulo": "Listar Todas as Instalações no Quadro 5",
+          "descricao": "No <strong>Quadro 5 (Instalação Elétrica)</strong>, incluir <strong>todas as instalações</strong> do edifício:<br><br>• Habitações (todas as frações)<br>• Lojas e estabelecimentos comerciais<br>• Serviços comuns<br>• Garagens<br>• Outras instalações existentes<br><br>A constituição completa do prédio é essencial para garantir a coerência e o correto dimensionamento."
+        },
+        {
+          "numero": 3,
+          "titulo": "Garantir que Todos os Ramais Estão Refletidos",
+          "descricao": "Preencha o campo <strong>\"Total Ramais\"</strong> com a quantidade de ramais diferentes previstos para alimentar a instalação elétrica.<br><br>Na coluna <strong>\"Ramal nº\"</strong>, indique o número do ramal correspondente à ligação à rede (pode existir um único ramal ou vários, consoante o imóvel)."
+        },
+        {
+          "numero": 4,
+          "titulo": "Coerência com Quadro 4",
+          "descricao": "A informação do <strong>Quadro 5</strong> deve estar coerente com o <strong>Quadro 4</strong>, ao nível do número de ramais.<br>"
+        },
+        {
+          "numero": 5,
+          "titulo": "Reenviar a Ficha Eletrotécnica Corrigida",
+          "descricao": "Submeta a <strong>Ficha Eletrotécnica corrigida</strong>, incluindo a constituição total do prédio (todas as instalações e ramais), no pedido para levantamento da pendência."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-fator-simultaneidade-incorreto",
+      "titulo": "FE - Fator de Simultaneidade Incorreto",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica apresenta o \"Fator de simultaneidade\" mal preenchido no Quadro 5 – Instalação Elétrica, o que altera a \"Potência a alimentar\" e, por consequência, a potência total requisitada.",
+      "imagem": "assets/images/fe_p5_fator_simultaneidade.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Classificar Cada Instalação",
+          "descricao": "No <strong>Quadro 5</strong>, use o campo <strong>\"Tipo de utilização individual\"</strong> para identificar se cada linha corresponde a:<br><br>• <strong>Habitação (doméstica)</strong>, ou<br>• <strong>Outra utilização (não doméstica)</strong>, como Loja/Escritório/Armazém/Restaurante/Serviços comuns, etc."
+        },
+        {
+          "numero": 2,
+          "titulo": "Aplicar o Fator Correto",
+          "descricao": "<strong>A) Instalações não domésticas</strong><br>Quando se tratam de instalações não domésticas, o fator de simultaneidade assume o valor <strong>1</strong>.<br><br><strong>B) Edifícios coletivos, empreendimentos e vivendas unifamiliares (instalações domésticas)</strong><br>Para instalações domésticas, os fatores estão tabelados em função de <strong>n</strong> (número de instalações não comerciais presentes na ficha eletrotécnica):<br><br>• n 2–4 → 1<br>• n 5–9 → 0,75<br>• n 10–14 → 0,56<br>• n 15–19 → 0,48<br>• n 20–24 → 0,43<br>• n 25–29 → 0,40<br>• n 30–34 → 0,38<br>• n 35–39 → 0,37<br>• n 40–49 → 0,36<br>• n ≥ 50 → 0,34<br><br><strong>C) Condomínios fechados</strong><br>Nos condomínios fechados, os fatores são determinados por tipologia de instalações, conforme definidos pela RESP, e o cálculo é obtido através do preenchimento da Ficha RESP (Anexo 1)."
+        },
+        {
+          "numero": 3,
+          "titulo": "Justificar Se Usar Fator Diferente",
+          "descricao": "É possível indicar outros valores para o fator de simultaneidade desde que estejam <strong>justificados em memória descritiva</strong>, incluindo o cálculo desses valores.<br><br>Por exemplo: quando todas as instalações são não domésticas, o fator é 1; caso seja apresentado um valor diferente, deve ser justificado em memória descritiva com o respetivo cálculo."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar a Potência a Alimentar",
+          "descricao": "Após corrigir o fator de simultaneidade, verifique que a <strong>\"Potência a alimentar\"</strong> foi recalculada corretamente, pois depende diretamente deste fator."
+        },
+        {
+          "numero": 5,
+          "titulo": "Reenviar a Ficha Corrigida",
+          "descricao": "Submeta a Ficha Eletrotécnica corrigida com o fator de simultaneidade correto (e memória descritiva justificativa, se aplicável) para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-assinatura-falta",
+      "titulo": "Ficha Eletrotécnica - Assinatura em Falta",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "A Ficha Eletrotécnica deverá estar devidamente preenchida e com a assinatura do técnico responsável. Este documento é obrigatório para validação do pedido.",
+      "imagem": "assets/images/fe_data_assinatura_falta.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Localizar o Campo de Assinatura",
+          "descricao": "Aceda à Ficha Eletrotécnica e localize o campo destinado à <strong>assinatura do técnico responsável</strong>, normalmente localizado no final do documento."
+        },
+        {
+          "numero": 2,
+          "titulo": "Obter Assinatura do Técnico Habilitado",
+          "descricao": "A Ficha Eletrotécnica deve ser assinada por um <strong>técnico responsável habilitado</strong> pela DGEG. O técnico deve assinar o documento de forma legível e clara."
+        },
+        {
+          "numero": 3,
+          "titulo": "Verificar o Preenchimento Completo",
+          "descricao": "Antes de submeter, confirme que:<br>• A assinatura está visível e legível<br>• A data de assinatura está preenchida<br>• O documento está completamente preenchido<br>• Todos os campos obrigatórios estão corretos"
+        },
+        {
+          "numero": 4,
+          "titulo": "Enviar o Documento Corrigido",
+          "descricao": "Deverá enviar a Ficha Eletrotécnica com a assinatura do técnico responsável devidamente aposta para darmos seguimento ao pedido."
+        }
+      ]
+    },
+    {
+      "id": "ficha-eletrotecnica-coordenadas-morada",
+      "titulo": "FE - Coordenadas e Morada Não Correspondem",
+      "subtitulo": "Ação necessária do cliente",
+      "tipo": "warning",
+      "icon": "fas fa-exclamation-triangle",
+      "descricao": "Falta Ficha Eletrotécnica com a informação correta, uma vez que na atual as coordenadas geográficas não correspondem às coordenadas da morada indicada. Relembramos que as coordenadas devem corresponder à localização do ponto de entrega (portinhola).",
+      "imagem": "assets/images/fe_p3_todos.png",
+      "passos": [
+        {
+          "numero": 1,
+          "titulo": "Identificar o Ponto de Entrega Correto",
+          "descricao": "Confirme no local (ou com o técnico/eletricista) onde ficará/está a <strong>portinhola</strong> (onde a E-REDES fará a entrega de energia).<br><br>A portinhola é o Ponto de Entrega (PE) e é a localização exata que deve constar na Ficha Eletrotécnica."
+        },
+        {
+          "numero": 2,
+          "titulo": "Obter as Coordenadas GPS do Ponto de Entrega",
+          "descricao": "Use um método fiável (ex.: mapa no telemóvel no local) para recolher <strong>latitude e longitude exatamente na portinhola</strong>."
+        },
+        {
+          "numero": 3,
+          "titulo": "Corrigir o Quadro 3 da Ficha Eletrotécnica",
+          "descricao": "No <strong>Quadro 3 – Localização do imóvel</strong>, preencha corretamente os seguintes campos para que correspondam à localização da portinhola:<br><br>• <strong>Freguesia</strong><br>• <strong>Concelho</strong><br>• <strong>Distrito</strong><br>• <strong>Entrada principal (Lugar/Rua)</strong><br>• <strong>Outra entrada do imóvel</strong> (se aplicável)<br>• <strong>Coordenadas GPS</strong><br><br>Todos estes campos devem referir-se ao <strong>mesmo ponto físico</strong> onde está ou ficará a portinhola."
+        },
+        {
+          "numero": 4,
+          "titulo": "Verificar a Coerência",
+          "descricao": "Antes de submeter, verifique que:<br>• As coordenadas GPS correspondem à localização da portinhola<br>• A Freguesia, Concelho e Distrito estão corretos<br>• A Entrada principal (Lugar/Rua) corresponde ao local da portinhola<br>• Todas as informações são consistentes entre si"
+        },
+        {
+          "numero": 5,
+          "titulo": "Reenviar a Ficha Corrigida",
+          "descricao": "Submeta a Ficha Eletrotécnica corrigida com as coordenadas e morada corretas do ponto de entrega para darmos seguimento ao pedido."
         }
       ]
     }
