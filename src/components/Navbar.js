@@ -75,6 +75,9 @@ export class Navbar {
 
     return `
       <div class="nav-section">
+        <a href="plr2/index.html" class="preview-button" style="display: block; padding: 8px 12px; margin: 0 16px 12px; background: #f5f5f5; border-radius: 4px; text-decoration: none; color: #333; font-size: 0.85rem; font-weight: 600; text-align: center; transition: all 0.2s ease; border: 1px solid #e0e0e0;">
+          <i class="fas fa-eye" style="margin-right: 6px;"></i>Previsualizar
+        </a>
         <div class="nav-label">${this.config.title} (${this.pendencias.length}/217)</div>
         ${navItems}
       </div>
