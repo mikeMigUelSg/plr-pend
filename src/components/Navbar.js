@@ -22,24 +22,36 @@ export class Navbar {
       return;
     }
 
+    // Renderiza o conteúdo da sidebar
     navbarElement.innerHTML = `
-      ${this.renderToggleButton()}
       ${this.renderLogo()}
       ${this.renderNavSection()}
     `;
+
+    // Renderiza o botão de toggle fora da sidebar
+    this.renderToggleButton();
 
     this.attachEventListeners();
   }
 
   /**
-   * Renderiza o botão de toggle para mobile
+   * Renderiza o botão de toggle para mobile (fora da sidebar)
    */
   renderToggleButton() {
-    return `
-      <button class="navbar-toggle" aria-label="Toggle menu">
-        <i class="fas fa-bars"></i>
-      </button>
-    `;
+    // Remove botão existente se houver
+    const existingBtn = document.querySelector('.navbar-toggle');
+    if (existingBtn) {
+      existingBtn.remove();
+    }
+
+    // Cria o botão
+    const toggleBtn = document.createElement('button');
+    toggleBtn.className = 'navbar-toggle';
+    toggleBtn.setAttribute('aria-label', 'Toggle menu');
+    toggleBtn.innerHTML = '<i class="fas fa-bars"></i>';
+
+    // Adiciona ao body
+    document.body.appendChild(toggleBtn);
   }
 
   /**

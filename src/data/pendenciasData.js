@@ -365,8 +365,8 @@ export const pendencias = [
         items: [
           {
             numero: 1,
-            titulo: 'Obter o Modelo em Excel',
-            descricao: 'Aceda ao site oficial da DGEG para descarregar o modelo atualizado em formato Excel (.xlsx).',
+            titulo: 'Obter o Modelo',
+            descricao: 'Aceda ao site oficial da DGEG para descarregar o modelo atualizado.',
             link: {
               texto: 'Ir para dgeg.gov.pt',
               url: 'https://www.dgeg.gov.pt'
@@ -374,18 +374,13 @@ export const pendencias = [
           },
           {
             numero: 2,
-            titulo: 'Preencher o Ficheiro Excel',
-            descricao: 'Preencha <strong>todos os campos obrigatórios</strong> do ficheiro Excel de forma completa e correta. O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito.'
+            titulo: 'Responsabilidade Técnica',
+            descricao: 'O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito.'
           },
           {
             numero: 3,
-            titulo: 'Verificar o Preenchimento',
-            descricao: 'Antes de submeter, verifique cuidadosamente que:<br>• Todos os campos obrigatórios estão preenchidos<br>• A informação está correta e completa<br>• O ficheiro está no formato Excel (.xlsx)<br>• O documento está devidamente assinado'
-          },
-          {
-            numero: 4,
-            titulo: 'Submeter o Ficheiro Excel',
-            descricao: 'Submeta a Ficha Eletrotécnica em formato Excel devidamente preenchida através do Balcão Digital na área <em>"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos"</em> para darmos seguimento ao pedido de ligação à rede.',
+            titulo: 'Submeter o Documento',
+            descricao: 'Submeta a Ficha Eletrotécnica digitalizada através do Balcão Digital na área <em>"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos"</em> para darmos seguimento ao pedido de ligação à rede.',
             link: {
               texto: 'Submeter documentos no Balcão Digital',
               url: 'https://www.e-redes.pt/pt-pt/ajuda/contacte-nos'
@@ -429,8 +424,8 @@ export const pendencias = [
         items: [
           {
             numero: 1,
-            titulo: 'Obter o Modelo Oficial da DGEG',
-            descricao: 'Aceda ao site oficial da DGEG para descarregar o modelo atualizado e oficial da Ficha Eletrotécnica.',
+            titulo: 'Obter o Modelo',
+            descricao: 'Aceda ao site oficial da DGEG para descarregar o modelo atualizado.',
             link: {
               texto: 'Ir para dgeg.gov.pt',
               url: 'https://www.dgeg.gov.pt'
@@ -439,17 +434,12 @@ export const pendencias = [
           {
             numero: 2,
             titulo: 'Responsabilidade Técnica',
-            descricao: 'O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito, conforme as normas da DGEG.'
+            descricao: 'O documento deve ser preenchido e assinado exclusivamente por um <strong>técnico habilitado</strong> para o efeito.'
           },
           {
             numero: 3,
-            titulo: 'Preencher o Modelo Correto',
-            descricao: 'Utilize apenas o modelo oficial fornecido pela DGEG. Não utilize modelos alternativos, versões antigas ou documentos modificados. Preencha <strong>todos os campos obrigatórios</strong> de forma completa e correta.'
-          },
-          {
-            numero: 4,
             titulo: 'Submeter o Documento',
-            descricao: 'Submeta a Ficha Eletrotécnica no modelo oficial da DGEG, devidamente preenchida e assinada, através do Balcão Digital na área <em>"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos"</em> para darmos seguimento ao pedido de ligação à rede.',
+            descricao: 'Submeta a Ficha Eletrotécnica digitalizada através do Balcão Digital na área <em>"Contacte-nos / Ligações à Rede e Aumentos de Potência / Quero adicionar informação e/ou enviar documentos"</em> para darmos seguimento ao pedido de ligação à rede.',
             link: {
               texto: 'Submeter documentos no Balcão Digital',
               url: 'https://www.e-redes.pt/pt-pt/ajuda/contacte-nos'
