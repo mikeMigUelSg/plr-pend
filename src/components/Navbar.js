@@ -9,6 +9,7 @@ export class Navbar {
     this.pendencias = pendencias;
     this.onNavigate = onNavigate;
     this.activeId = null;
+    this.isOpen = false;
   }
 
   /**
@@ -22,11 +23,23 @@ export class Navbar {
     }
 
     navbarElement.innerHTML = `
+      ${this.renderToggleButton()}
       ${this.renderLogo()}
       ${this.renderNavSection()}
     `;
 
     this.attachEventListeners();
+  }
+
+  /**
+   * Renderiza o botão de toggle para mobile
+   */
+  renderToggleButton() {
+    return `
+      <button class="navbar-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    `;
   }
 
   /**
@@ -50,7 +63,7 @@ export class Navbar {
 
     return `
       <div class="nav-section">
-        <div class="nav-label">${this.config.title} (${this.pendencias.length})</div>
+        <div class="nav-label">${this.config.title} (${this.pendencias.length}/217)</div>
         ${navItems}
       </div>
     `;
@@ -76,6 +89,7 @@ export class Navbar {
    * Anexa event listeners aos itens de navegação
    */
   attachEventListeners() {
+    // Event listener para itens de navegação
     const navItems = document.querySelectorAll('.nav-item[data-pendencia]');
 
     navItems.forEach(item => {
@@ -84,11 +98,71 @@ export class Navbar {
         const pendenciaId = item.dataset.pendencia;
         this.setActive(pendenciaId);
 
+        // Fecha o menu em mobile ao clicar em um item
+        this.close();
+
         if (this.onNavigate) {
           this.onNavigate(pendenciaId);
         }
       });
     });
+
+    // Event listener para o botão de toggle
+    const toggleBtn = document.querySelector('.navbar-toggle');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        this.toggle();
+      });
+    }
+
+    // Event listener para fechar ao clicar fora da navbar em mobile
+    document.addEventListener('click', (e) => {
+      const sidebar = document.querySelector('.sidebar');
+      const toggleBtn = document.querySelector('.navbar-toggle');
+
+      if (this.isOpen &&
+          sidebar &&
+          !sidebar.contains(e.target) &&
+          e.target !== toggleBtn) {
+        this.close();
+      }
+    });
+  }
+
+  /**
+   * Alterna a visibilidade da navbar
+   */
+  toggle() {
+    this.isOpen = !this.isOpen;
+    const sidebar = document.querySelector('.sidebar');
+
+    if (sidebar) {
+      sidebar.classList.toggle('open', this.isOpen);
+    }
+  }
+
+  /**
+   * Fecha a navbar
+   */
+  close() {
+    this.isOpen = false;
+    const sidebar = document.querySelector('.sidebar');
+
+    if (sidebar) {
+      sidebar.classList.remove('open');
+    }
+  }
+
+  /**
+   * Abre a navbar
+   */
+  open() {
+    this.isOpen = true;
+    const sidebar = document.querySelector('.sidebar');
+
+    if (sidebar) {
+      sidebar.classList.add('open');
+    }
   }
 
   /**
