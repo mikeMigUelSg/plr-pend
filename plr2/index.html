@@ -32,14 +32,9 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
 
-        .logo {
-            font-weight: 900;
-            font-size: 22px;
-            letter-spacing: 0.5px;
-            color: #000;
+        .logo img {
+            display: block;
         }
-        /* Pequeno ajuste para simular o logotipo gráfico */
-        .logo span { margin-right: 2px; }
 
         .header-right {
             display: flex;
@@ -326,7 +321,7 @@
 
     <header>
         <div class="logo">
-            <i  style="font-size: 18px; margin-right: 5px;"></i>E-REDES
+            <img src="logo2.png" alt="E-REDES" style="height: 30px; display: block;">
         </div>
         <div class="header-right">
             <a href="#" class="header-link">E-REDES.pt <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -340,7 +335,7 @@
 
     <main class="main-container">
         <nav class="breadcrumbs">
-            <span class="icon-e">e</span> <i class="fa-solid fa-chevron-right" style="font-size: 8px;"></i>
+        
             <a href="#">Balcão Digital</a> <i class="fa-solid fa-chevron-right" style="font-size: 8px;"></i>
             <a href="#">Pedidos</a> <i class="fa-solid fa-chevron-right" style="font-size: 8px;"></i>
             <span class="bold">Pedido #1234567891</span>
@@ -387,8 +382,15 @@
             <div class="section-gap">
                 <h3>O que fazer?</h3>
                 <p class="text-body">Consulte a DIT-C14-100 em <a href="#" class="link-style">e-redes.pt</a>, para obter toda a informação necessária. Após alteração do ponto de entrega envie-nos a(s) respetiva(s) evidência(s), para darmos seguimento ao pedido de ligação à rede.</p>
-                <p class="text-body" style="margin-top: 10px;">Está com duvidas?<br>
-                Consulte como resolver <a href="resolucao.html" class="link-style">esta pendencia</a>.</p>
+                <br>
+
+                <h3><strong>Está com dúvidas?</strong></h3>
+                <p class="text-body" style="margin-top: 10px; padding-left: 20px;">
+                    • Consulte o documento sobre 
+                    <a href="resolucao.html" class="link-style">como resolver esta pendência</a>. <br>
+                    • Se a dúvida persistir, ligue para a linha de apoio ao cliente 218 100 100.
+                </p>
+                
             </div>
 
             <h3 class="upload-title">Enviar documento(s)</h3>
